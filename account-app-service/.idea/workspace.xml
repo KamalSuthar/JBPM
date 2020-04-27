@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51a7bbdd-805d-405e-8d7a-f249acac5b1f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\erkam\.m2\repository" />
+        <option name="userSettingsFile" value="G:\PublicisSapient\JBPM\JBPM-Intellij-SpringBoot\business-application-service\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aslHN8hYtV43GLhwN8q2FBJYjo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\PublicisSapient\JBPM\JBPM-Intellij-SpringBoot\business-application-service\src\main\java\com\company\service" />
+      <recent name="G:\PublicisSapient\JBPM\JBPM-Intellij-SpringBoot\business-application-service\src\main\resources" />
+      <recent name="G:\PublicisSapient\JBPM\JBPM-Intellij-SpringBoot\business-application-service\target" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.service.Application" />
+      <module name="account-app-service" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51a7bbdd-805d-405e-8d7a-f249acac5b1f" name="Default Changelist" comment="" />
+      <created>1587532093816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587532093816</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="44" key="#&lt;template&gt;_of_Application" timestamp="1587540303240">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="453" y="44" key="#&lt;template&gt;_of_Application/0.0.1536.824@0.0.1536.824" timestamp="1587540303240" />
+    <state x="485" y="83" key="#Application" timestamp="1587540731909">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="83" key="#Application/0.0.1536.824@0.0.1536.824" timestamp="1587540731909" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1587647559982">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1587647559982" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587545916097">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587545916097" />
+    <state x="463" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587546579941">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1587546579941" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587702333240">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587702333240" />
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1587725236213">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587725236213" />
+    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1587725236213">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587725236213" />
+    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1587725236213">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587725236213" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1587725236213">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587725236213" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587540453892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587540453892" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1587540453892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587540453892" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1587540453892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587540453892" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1587540453892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587540453892" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1587647497439">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587647497439" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587962842321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587962842321" />
+    <state x="345" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587540410048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="345" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1587540410048" />
+    <state x="420" y="0" width="738" height="824" key="find.popup" timestamp="1587704608552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="420" y="0" width="738" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587704608552" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1587642745904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587642745904" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/service/Application.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/business_application_service$Application.ic" NAME="Application Coverage Results" MODIFIED="1587536485566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>
