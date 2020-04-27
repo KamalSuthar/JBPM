@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<definitions id="Definition"
+             targetNamespace=""
+             typeLanguage="http://www.java.com/javaTypes"
+             expressionLanguage="http://www.mvel.org/2.0"
+             xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd"
+             xmlns:g="http://www.jboss.org/drools/flow/gpd"
+             xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+             xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+             xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+             xmlns:tns="http://www.jboss.org/drools">
+
+  <itemDefinition id="ItemDefinition_1308" structureRef="xs:string" />
+  <process processType="Private" isExecutable="true" id="SimpleProcess" name="SimpleProcess" >
+
+    <extensionElements>
+     <tns:import name="org.kie.api.runtime.process.CaseAssignment" />
+     <tns:import name="org.kie.api.runtime.process.CaseData" />
+    </extensionElements>
+    <!-- process variables -->
+    <property id="processVar1" itemSubjectRef="ItemDefinition_1308"/>
+
+    <!-- nodes -->
+    <startEvent id="StartEvent_1" name="Start Event 1"  isInterrupting="false">
+    </startEvent>
+    <scriptTask id="ScriptTask_1" name="Script Task 1" >
+      <script>kcontext.setVariable("processVar1", "Hello " + kcontext.getVariable("processVar1"));</script>
+    </scriptTask>
+    <endEvent id="EndEvent_1" name="End Event 1" />
+    <userTask id="97f08560-1f56-4b75-aea2-fc00cca79c8b" name="User Task" >
+      <ioSpecification>
+        <inputSet>
+        </inputSet>
+        <outputSet>
+        </outputSet>
+      </ioSpecification>
+    </userTask>
+
+    <!-- connections -->
+    <sequenceFlow id="97f08560-1f56-4b75-aea2-fc00cca79c8b-ScriptTask_1" sourceRef="97f08560-1f56-4b75-aea2-fc00cca79c8b" targetRef="ScriptTask_1" />
+    <sequenceFlow id="ScriptTask_1-EndEvent_1" sourceRef="ScriptTask_1" targetRef="EndEvent_1" />
+    <sequenceFlow id="StartEvent_1-97f08560-1f56-4b75-aea2-fc00cca79c8b" sourceRef="StartEvent_1" targetRef="97f08560-1f56-4b75-aea2-fc00cca79c8b" />
+
+  </process>
+
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="SimpleProcess" >
+      <bpmndi:BPMNShape bpmnElement="StartEvent_1" >
+        <dc:Bounds x="22" y="90" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="ScriptTask_1" >
+        <dc:Bounds x="378" y="83" width="110" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="EndEvent_1" >
+        <dc:Bounds x="675" y="87" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="97f08560-1f56-4b75-aea2-fc00cca79c8b" >
+        <dc:Bounds x="207" y="94" width="97" height="39" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="97f08560-1f56-4b75-aea2-fc00cca79c8b-ScriptTask_1" >
+        <di:waypoint x="255" y="113" />
+        <di:waypoint x="433" y="108" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="ScriptTask_1-EndEvent_1" >
+        <di:waypoint x="433" y="108" />
+        <di:waypoint x="699" y="111" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="StartEvent_1-97f08560-1f56-4b75-aea2-fc00cca79c8b" >
+        <di:waypoint x="46" y="114" />
+        <di:waypoint x="184" y="112" />
+        <di:waypoint x="255" y="113" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+
+</definitions>
